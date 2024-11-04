@@ -19,14 +19,14 @@ export default function BackgroundSlideshow() {
   const slides: Slide[] = [
     {
       id: 1,
-      imageUrl: '/images/bacground1.jpg',
+      imageUrl: '/images/background1.png',
       alt: 'Slide 1',
       title: '',
       subtitle: ''
     },
     {
       id: 2,
-      imageUrl: '/images/background 2.jpg',
+      imageUrl: '/images/background2.png',
       alt: 'Slide 2',
       title: '',
       subtitle: ''
@@ -36,7 +36,7 @@ export default function BackgroundSlideshow() {
   return (
     <>
       {/* Slideshow Section */}
-      <div className="relative h-[90vh] w-full">
+      <div className="relative h-[80vh] w-full">
         <Swiper
           modules={[EffectFade, Autoplay]}
           effect="fade"
